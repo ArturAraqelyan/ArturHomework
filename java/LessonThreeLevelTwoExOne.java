@@ -1,0 +1,64 @@
+public class LessonThreeLevelTwoExOne {
+    public static void main(String[] args) {
+        Person person1 = new Person();
+        person1.setAddress("г.Ереван ул.Араратяна.");
+        person1.setCompany(" КОЛАБОК");
+        person1.setStaff("сотрудников");
+        person1.setClients("клиентов.");
+        System.out.println("Фирма " + person1.getCompany() + "," + "адрес " + person1.getAddress() + "," + "фирма имет " + person1.getStaff() + "," + "и " + person1.getClients());
+
+        Person person2 = new Person();
+        person2.setPosition("Kурьер ");
+        person2.setName("Артак ");
+        person2.setSurname("Акопян ");
+        person2.setCar("OPEL");
+        person2.setAddress("г.Ереван ул.Аршакуняна.");
+        System.out.println("Сотрудники имеют должность. ");
+        System.out.println("" + person2.getPosition() + "-" + person2.getName() + " " + person2.getSurname() + "-" + person2.getCar() + "," + person2.getAddress());
+        person2.setPosition("Дрожжевик");
+        person2.setName("Арам");
+        person2.setSurname("Сарксян");
+        person2.setCar("LEXUS");
+        person2.setAddress("г.Ереван ул.Абовяна.");
+        System.out.println("" + person2.getPosition() + "-" + person2.getName() + " " + person2.getSurname() + "-" + person2.getCar() + "," + person2.getAddress());
+        person2.setPosition("Пекарь");
+        person2.setName("Астхик");
+        person2.setSurname("Суренян");
+        person2.setCar("NISSAN");
+        person2.setAddress("г.Масис ул.Варданяна.");
+        System.out.println("" + person2.getPosition() + "-" + person2.getName() + " " + person2.getSurname() + "-" + person2.getCar() + "," + person2.getAddress());
+        person2.setPosition("Бисквитчик");
+        person2.setName("Артак");
+        person2.setSurname("Карапетян");
+        person2.setCar("BWM");
+        person2.setAddress("г.Арарат ул.Чаренца.");
+        System.out.println("" + person2.getPosition() + "-" + person2.getName() + " " + person2.getSurname() + "-" + person2.getCar() + "," + person2.getAddress());
+        person2.setPosition("Изготовител кремов");
+        person2.setName("Карине");
+        person2.setSurname("Асатрян");
+        person2.setCar("TOYOTA");
+        person2.setAddress("г.Арташат ул.Шаумяна.");
+        System.out.println("" + person2.getPosition() + "-" + person2.getName() + " " + person2.getSurname() + "-" + person2.getCar() + "," + person2.getAddress());
+        System.out.println(" Могут работать, говорить, ходить и принимать заказ у клиентов.");
+        Person person3 = new Person();
+        System.out.println("Клиенты.");
+        person3.setName("Карен");
+        person3.setSurname("Асатрян");
+        person3.setPatronymic("Арсенович");
+        person3.setProfession("Продюсер");
+        person3.setHobby("Чтение");
+        System.out.println("" + person3.getName() + " " + person3.getSurname() + " " + person3.getPatronymic() + "," + person3.getProfession() + "," + person3.getHobby());
+        person3.setName("Лусине");
+        person3.setSurname("Авагян");
+        person3.setPatronymic("Аршаковна");
+        person3.setProfession("Дизайнер интерьера");
+        System.out.println("" + person3.getName() + " " + person3.getSurname() + " " + person3.getPatronymic() + "," + person3.getProfession() + "," + person3.getHobby());
+        person3.setName("Apa");
+        person3.setSurname("Амирян");
+        person3.setPatronymic("Албертович");
+        person3.setProfession("Архитектор");
+        person3.setHobby("Спорт");
+        System.out.println("" + person3.getName() + " " + person3.getSurname() + " " + person3.getPatronymic() + "," + person3.getProfession() + "," + person3.getHobby() + ".");
+        System.out.println(" Умеют звонить,писать, говорить.");
+    }
+}
