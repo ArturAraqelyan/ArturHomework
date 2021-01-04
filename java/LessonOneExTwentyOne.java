@@ -4,7 +4,7 @@ public class LessonOneExTwentyOne {
         int b = 10;
         int c = 5;
         if (a > b & a > c) {
-            System.out.println("a  mece b ic yev mece c ic");
+             System.out.println(" а больше b и больше с ");
         }
     }
 }
