@@ -4,7 +4,8 @@ public class LessonOneExTwentyTwo {
         int b=12;
         int c=14;
         if(a < b & a < c){
-            System.out.println("a poqre b ic yev c ic");
+            Syistem.out.println(" a больше b и больше c ")
+            
         }
     }
 }
